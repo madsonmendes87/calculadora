@@ -5,43 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Calculadora Bom de Mesa</title>
 </head>
 <body>
-    <div class="container">
+    <header>
+        <a href="https://github.com/madsonmendes87/calculadora" target="_blank">
+            <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+    </header>
+    <div class="calculator">
         <div class="input" id="input"></div>
-        <div class="botao">
-            <div class="operadores">
-                <div>+</div>
-                <div>-</div>
-                <div>&times;</div>
-                <div>&divide;</div>
+        <div class="buttons">
+          <div class="operators">
+            <div>+</div>
+            <div>-</div>
+            <div>&times;</div>
+            <div>&divide;</div>
+          </div>
+          <div class="leftPanel">
+            <div class="numbers">
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
             </div>
-            <div class="painelEsquerdo">
-                <div class="numeros">
-                    <div>7</div>
-                    <div>8</div>
-                    <div>9</div>
-                </div>
-                <div class="numeros">
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
-                </div>
-                <div class="numeros">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                </div>
-                <div class="numeros">
-                    <div>0</div>
-                    <div>.</div>
-                    <div id="limpar">C</div>
-                </div>
+            <div class="numbers">
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
             </div>
-            <div class="igual" id="resultado">=</div>
+            <div class="numbers">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+            </div>
+            <div class="numbers">
+              <div>0</div>
+              <div>.</div>
+              <div id="clear">C</div>
+            </div>
+          </div>
+          <div class="equal" id="result">=</div>
         </div>
-    </div>
+      </div>
 </body>
 </html>
